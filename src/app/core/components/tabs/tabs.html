@@ -1,0 +1,18 @@
+<div id="container">
+    <div class="tab" (click)="navegar('')" [class.seleccionado]="seleccionado[0]">
+        <img src="/Cubiertos.png" alt="Cubiertos" width="50" height="50" />
+    </div>
+
+    <div class="tab" (click)="navegar('buscar')" [class.seleccionado]="seleccionado[1]">
+        <img src="/Lupa.jpg" alt="Buscar" width="50" height="50" />
+    </div>
+
+    <div class="tab" (click)="navegar('carrito')" [class.seleccionado]="seleccionado[2]">
+        <img src="/shopping-svgrepo-com.svg" alt="carrito" width="50" height="50" />
+    </div>
+    <div class="tab" (click)="navegar('perfil')" [class.seleccionado]="seleccionado[3]">
+        <img src="/user-info.svg" alt="Perfil" width="50" height="50" />
+    </div>
+    
+    
+</div>
